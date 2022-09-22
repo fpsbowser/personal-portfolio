@@ -1,3 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Kanit:ital,wght@1,900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* background-image: url("/assets/pexels-aleksandar-pasaric-1694000.jpg");
+  background-size: cover; */
+  background-color: lightyellow;
+}
+
 body {
-  background-color: blanchedalmond;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  color: black;
+  background-color: rgba(255, 235, 205, 0.008);
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  color: black;
+}
+
+section {
+  width: 100vw;
+}
+
+.hero {
+  border: 2px solid red;
+  background-image: url("/assets/pexels-trinity-kubassek-230620.jpg");
+  background-size: cover;
+  background-position: center;
+  /* max-width: 100rem; */
+}
+
+.hero-card {
+  display: flex;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  padding: 8rem 5rem 6rem 2rem;
+}
+
+.hero-text {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.firstname {
+  color: lightblue;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  font-style: italic;
+}
+
+.lastname {
+  color: lightblue;
+  margin-top: -3rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  font-style: italic;
+}
+
+.about {
+  border: 2px solid purple;
+  /* max-width: 130rem; */
+}
+
+.about-card {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.about-header {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  background-color: black;
+}
+
+.project-card {
+  height: 300px;
+  width: 500px;
+  border: 2px solid gold;
 }
