@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+
     <title>Personal Protfolio</title>
   </head>
   <body>
@@ -25,27 +31,158 @@
     <main>
       <section class="about">
         <div class="about-card">
-          <p class="about-header">About</p>
-          <p>
-            Ever since I was a kid I've had an iterest in tech. It started in
-            late 2008 when I was 11, I was able to get my hands on the original
-            iPhone (thanks mom and dad)! Then it escalated rather quickily by me
-            building my first gaming computer at 13 years old, achieving the
-            family title of "The Computer Kid" and am still to this day the tech
-            support for all my family and friends! After I graduated highscool I
-            started my journey in the programming world.
-          </p>
-          <p>
-            I started out learning the Swift language and built a few mobile
-            apps, which I really enjoyed but after a samll hiatus I took a
-            detour to JavaScript and that's when things got real. Using The Odin
-            Project as my bootcamp and learning structure, I dedicated all my
-            time to it. I finished the whole curriculum and learned an unfathom
-            amount of information and was able to build fun and unique projects,
-            showcased below.
-          </p>
-          <p></p>
-          <p></p>
+          <div class="about-header-container">
+            <p class="about-number">01.</p>
+            <h1 class="about-header">About</h1>
+          </div>
+          <div class="about-skills-container">
+            <p class="about-number">02.</p>
+            <h1 class="about-header">Skills</h1>
+          </div>
+          <!-- <div class="icon"></div> -->
+          <!-- <img
+            src="/assets/code-128.png"
+            alt="coding icon"
+            class="coding-icon"
+          /> -->
+          <div class="description">
+            <img
+              src="/assets/code-128.png"
+              alt="coding icon"
+              class="coding-icon"
+            />
+            <p>
+              From the moment I got my hands on the revolutionary iPhone when I
+              was 11 years old, I was hooked with everything tech. Shortly
+              after, when I was 13, I built my first gaming computer and then
+              naturally, a fascination for programming sparked as I started to
+              question "how does this work?". When I started the programming
+              journey I fell in love with the logical challenges and
+              creativeness that development offers.
+            </p>
+            <p>
+              With the experience and knowledge I have achieved, I am actively
+              seeking employment for software development.
+            </p>
+            <p class="quote">I'f I don't know it, I'll learn it.</p>
+          </div>
+          <div class="skills-container">
+            <div class="frontend-container">
+              <p class="skill-header">Front-end</p>
+              <div class="frontend-logos">
+                <div class="skill-tile">
+                  <i class="devicon-html5-plain"></i>
+                  <p class="logo-text">HTML</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-css3-plain"></i>
+                  <p class="logo-text">CSS</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-javascript-plain"></i>
+                  <p class="logo-text-js">JavaScript</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-react-original"></i>
+                  <p class="logo-text">React</p>
+                </div>
+                <!-- <div class="skill-tile">
+                  <i class="devicon-html5-plain"></i>
+                  <p class="logo-text">HTML</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-html5-plain"></i>
+                  <p class="logo-text">HTML</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-html5-plain"></i>
+                  <p class="logo-text">HTML</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-html5-plain"></i>
+                  <p class="logo-text">HTML</p>
+                </div> -->
+              </div>
+            </div>
+            <div class="backend-container">
+              <p class="skill-header">Back-end</p>
+              <div class="backend-logos">
+                <div class="skill-tile">
+                  <i class="devicon-nodejs-plain"></i>
+                  <p class="logo-text">NodeJs</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-express-original"></i>
+                  <p class="logo-text">Express</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-mongodb-plain"></i>
+                  <p class="logo-text">MongoDB</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-firebase-plain"></i>
+                  <p class="logo-text">Firebase</p>
+                </div>
+              </div>
+            </div>
+            <div class="miscellaneous-container">
+              <p class="skill-header">Miscellaneous</p>
+              <div class="miscellaneous-logos">
+                <div class="skill-tile">
+                  <i class="devicon-git-plain"></i>
+                  <p class="logo-text">Git</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-github-original"></i>
+                  <p class="logo-text">GitHub</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-npm-original-wordmark"></i>
+                  <p class="logo-text">npm</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-webpack-plain"></i>
+                  <p class="logo-text">webpack</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-jest-plain"></i>
+                  <p class="logo-text">Jest</p>
+                </div>
+                <div class="skill-tile">
+                  <i class="devicon-swift-plain"></i>
+                  <p class="logo-text">Swift</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 
+            <p>
+              From the moment I got my hands on the original iPhone when I was 11
+              years old, I was hooked with everything tech. Shortly after, when I
+              was 13, I built my first gaming computer achieving the family title
+              of "The Computer Kid" and am still, to this day, the "tech guy" for
+              family and friends!
+            </p>
+            <p>
+              With a passion for learning and tech I knew programming was my
+              future path and after I graduated highschool I started the journey.
+              Starting out with the Swift language, I built a few iOS apps, which
+              I really enjoyed but after a samll hiatus I took a detour to
+              JavaScript and that's when things got
+              <strong>real</strong>.
+            </p>
+            <p>
+              Using The Odin Project as my bootcamp and learning structure, I
+              dedicated all my time to it. I finished the whole curriculum and
+              learned an unfathom amount of information and was able to build fun
+              and unique projects, showcased below.
+            </p>
+            <p>
+              While the learning never stops, I am confident I have what it takes
+              to provide value to a team. I am actively seeking employment in the
+              software development.
+            </p>
+           -->
         </div>
       </section>
       <!-- Projects -->
@@ -67,3 +204,5 @@
 <!-- https://bradtramel.com/ -->
 <!-- https://mattwwilson.com/ -->
 <!-- https://mohamedbechirmejri.dev/ -->
+<!-- https://pedroklepa.com/ -->
+<!-- https://www.kkaswenwilk.com/ -->
